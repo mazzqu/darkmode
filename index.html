@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="light">
+	<head>
+		<meta charset="UTF-8" />
+		<!--This meta are for set the view all screens on 1x1 aspect raito and remove the default functionality mobile
+        which render websites at full-view and allow users to zoom into the layout by pinching.
+        -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="HandheldFriendly" content="true" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Dark mode style</title>
+	</head>
+	<body>
+		<button>Dark Mode</button>
+		<div class="container">
+			<h1>
+				Welcome <br />
+				<span>Here you goin</span>
+			</h1>
+			<div class="control">
+				<label for="padding">Padding :</label>
+				<input type="range" id="padding" min="0" max="200" value="0" />
+
+				<label for="color">Color</label>
+				<input type="color" id="color" value="#ff8c69" />
+			</div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, aperiam!</p>
+			<br />
+			<div class="box"></div>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus omnis blanditiis doloribus accusantium nulla assumenda?</p>
+		</div>
+		<!--End container class-->
+		<script src="main.js"></script>
+	</body>
+</html>
